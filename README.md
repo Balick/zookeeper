@@ -1,9 +1,66 @@
-This is the *Zookeeper with Python* project I made myself.
-
-
-<p>Have you ever wondered what it's like to peer into different animal habitats? With this project, you'll be able to build a simple monitoring system using Python! Think of it as a virtual zoo visit from your console. You'll dive into the basics of Python and learn how to handle data input and output.<br>
-This project will teach you how to take user commands and display animal information, making you feel like a real zookeeper. You'll use lists to organize your data and loops to keep the program running. In the end, you'll have a fun, interactive tool that shows off your new Python skills and lets you explore the animal kingdom from your screen.</p><br/><br/>Learn more at <a href="https://hyperskill.org/projects/98?utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=project-card">https://hyperskill.org/projects/98</a>
+# Zookeeper — Console Habitats (Jetbrains project)
 
 Here's the link to the project: https://hyperskill.org/projects/98
 
 Check out my profile: https://hyperskill.org/profile/386978127
+
+A tiny console application that simulates camera feeds from different animal habitats. This is a JetBrains Academy learning project to practice lists, loops, user input, and basic program structure in Python.
+
+## Features
+
+- Display ASCII-art "camera" views for a set of animals (camel, lion, deer, goose, bat, rabbit).
+- Simple menu driven by user input (enter habitat number or `exit`).
+- Lightweight, dependency-free — runs on Python 3.
+
+## Learning goals
+
+- Work with lists to store multiple items.
+- Use loops and conditionals to control program flow.
+- Read user input and handle simple input validation.
+- Practice building a small, interactive console app.
+
+## Prerequisites
+
+- Python 3.6 or later installed.
+
+## Running the program
+
+1. Clone or download the repository.
+2. From the project directory run:
+
+```bash
+python zookeeper.py
+# or
+python3 zookeeper.py
+```
+
+(Replace the filename above if your main script uses a different name.)
+
+## Usage example
+
+When you run the program you'll see a prompt like:
+
+```
+Please enter the number of the habitat you would like to view:
+```
+
+Enter a number between 0 and 5 to view an animal habitat (0 — camel, 1 — lion, 2 — deer, 3 — goose, 4 — bat, 5 — rabbit). Enter `exit` to quit the app.
+
+Example session:
+
+```
+Please enter the number of the habitat you would like to view: 0
+Switching on the camera in the camel habitat...
+  ___.-''''-.
+ /___  @    |
+ ...
+Look at that! Our little camel is sunbathing!
+
+Please enter the number of the habitat you would like to view: exit
+See you later!
+```
+
+## Project structure
+
+- zookeeper.py — main script containing the habitats list and interactive loop.
+- README.md — this file.
